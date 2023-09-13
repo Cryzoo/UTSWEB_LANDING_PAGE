@@ -1,0 +1,691 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Berikut merupakan bagian untuk mengatur heading */
+header { 
+    padding: 1rem 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    height: 105px;
+    flex-shrink: 0;
+    background: #222831;
+    mix-blend-mode: hard-light;
+    position: relative;
+    z-index: 0;
+}
+
+header .logo {
+    width: 244px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links li {
+    list-style: none;
+    width: 281px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header .nav-links li a {
+    color: #FFFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.5ms;
+    transition: background-color 0.5s ease;
+}
+
+/* Berikut untuk mengatur hover */
+.nav-links li a:hover{
+    background-color: #0F4C75;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.body{
+    overflow-x: hidden !important;
+    color: #B7C4CF;
+}
+
+/* Gambar gitar pada page awal */
+.gitar1 {
+    width: 2000.882px;
+    height: 692.227px;
+    transform: rotate(-0,.400deg);
+    flex-shrink: 0;
+    border-radius: 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Ini untuk mengatur kotak yang dibelakang teks */
+.rectangle{
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #9999;
+    mix-blend-mode: multiply;
+    float: right;
+    display: inline-block;
+    margin: 400px;
+    padding: 50px;
+    margin-top: -350px;
+    margin-right: 75px;
+}
+
+/* Berikut untuk mengatur teks pada kotak / rectangle */
+.ibanez{
+    font-family: Poppins;
+    width: 479px;
+    height: 77px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tod10{
+    font-family: Poppins;
+    width: 479px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.electric{
+    font-family: Poppins;
+    width: 479px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detailibanez{
+    font-family: Poppins;
+    width: 479px;
+    height: 385px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+/* Ini untuk mengatur button */
+.btn{ 
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #222831;
+    font-family: Poppins;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* Animasi hover button */
+.btn:hover{
+    background-color: #0F4C75;
+    transition: 0.5ms ease-out;
+}
+
+.biografi{
+    font-family: Poppins;
+    text-align: center;
+    width: 395px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #0F4C75;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 800px;
+    margin-top: 25px;
+}
+
+.tim{
+    width: 838px;
+    height: 908px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    margin-top: 950px;
+    margin-left: 50px;
+}
+
+.rectangle2{
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #9999;
+    mix-blend-mode: multiply;
+    float: right;   
+    display: inline-block;
+    padding: 50px;
+    margin-top: -840px;
+    margin-right: 25px;
+}
+
+.henson{
+    font-family: Poppins;
+    width: 600px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detailtim{
+    font-family: Poppins;
+    width: 850px;
+    height: 500px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.specs1{
+    font-family: Poppins;
+    width: 205px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #0F4C75;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 900px;
+    margin-top: 450px;
+    margin-bottom: 55px;
+}
+
+.rectangle3{
+    width: 1555px;
+    height: 750px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #9999;
+    mix-blend-mode: multiply;
+    margin-left: 250px;
+
+}
+
+.spekgitar{
+    width: 527px;
+    height: 331px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.spekgitar2{
+    width: 527px;
+    height: 331px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.specs2{
+    font-family: Poppins;
+    width: 372px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 530px;
+    margin-top: -350px;
+}
+
+.detailspecs{
+    font-family: Poppins;
+    width: 1000px;
+    height: 307px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 535px;
+}
+
+.neck{
+    font-family: Poppins;
+    color: #FFFF;
+    width: 372px;
+    height: 39px;
+    flex-shrink: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 530px;
+    margin-top: -300px;
+}
+
+.detailneck{
+    font-family: Poppins;
+    color: #FFFF;
+    margin-top: 20px;
+    width: 372px;
+    height: 139px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 535px;
+}
+
+.fitur{
+    font-family: Poppins;
+    margin-top: 450px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0F4C75;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rectangle4{
+    width: 1550px;
+    height: 3400px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #9999;
+    mix-blend-mode: multiply;
+    margin-left: 250px;
+}
+
+.oval{
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+    padding-top: 50px;
+}
+
+.detailoval{
+    width: 600px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.fiturgitar{
+    width: 612px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 900px;
+    display: flex;
+    position: relative;
+    top: -145px;
+    border-radius: 50px;
+}
+
+.ebony{
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.detailebony{
+    width: 600px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.fiturgitar2{
+    width: 612px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 900px;
+    display: flex;
+    position: relative;
+    top: -145px;
+    border-radius: 50px;
+}
+
+.america{
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.detailamerica{
+    width: 600px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.fiturgitar3{
+    width: 612px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 900px;
+    display: flex;
+    position: relative;
+    top: -145px;
+    border-radius: 50px;
+}
+
+.fish{
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.detailfish{
+    width: 600px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;  
+    margin-top: 45px;
+}
+
+.fiturgitar4{
+    width: 612px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 900px;
+    display: flex;
+    position: relative;
+    top: -145px;
+    border-radius: 50px;
+}
+
+.gotoh{
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.detailgotoh{
+    width: 600px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;  
+}
+
+.fiturgitar5{
+    width: 612px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 900px;
+    display: flex;
+    position: relative;
+    top: -145px;
+    border-radius: 50px;
+}
+
+.fish2{
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+    position: relative;
+    top: 100px;
+}
+
+.detailfish2{
+    width: 600px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+    margin-top: 200px;
+}
+
+.fiturgitar6{
+    width: 612px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 900px;
+    display: flex;
+    position: relative;
+    top: -250px;
+    border-radius: 50px;
+}
+
+/* Berikut merupakan bagian untuk mengatur footer */
+footer{
+    background-color: #222831;
+    margin-top: 100px;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: #0F4C75;
+    opacity: 0.9;
+}
+
+/* efek di icon media sosial */
+.socialicons a:hover{
+    background-color: #222831;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+/* Ini untuk mengatur teks footer */
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-family: Poppins;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: #222831;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+    font-family: Poppins;
+}
+
+/* Ini untuk mengatur teks designer */
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    font-family: Poppins;
+}
